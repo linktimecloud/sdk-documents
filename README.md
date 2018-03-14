@@ -1,2 +1,1 @@
-# sdk_documents
-BDOS SDK documents
+# BDOS SDK documents
