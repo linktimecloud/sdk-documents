@@ -1,0 +1,9 @@
+{{=<% %>=}}
+- name: <%appId%>
+  rules:
+  - alert: <%clusterName%>_service_down
+    expr: up == 0
+    for: 1m
+    annotations:
+      summary: "Instance {{ $labels.instance }} is down"
+      description: "Instance {{ $labels.instance }} is down"

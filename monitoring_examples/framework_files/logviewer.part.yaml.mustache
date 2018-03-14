@@ -1,0 +1,5 @@
+  - job: "{{group}}-{{app}}"
+    dir: "/root/var/log/{{group}}/{{app}}"
+    files:
+      - filename: "*.log"
+        expr:
